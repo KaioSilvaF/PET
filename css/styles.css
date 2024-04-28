@@ -141,6 +141,7 @@ body {
   margin-right: auto;
   margin-bottom: 4em;
   box-shadow: 5px 8px 10px -7px;
+  border-radius: 23px !important;
 }
 .card-group .card{
   margin: 10px 20px;
@@ -194,7 +195,7 @@ body {
   
 }
 .card-title{
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px;
   font-family: "Titan One";
   background-color: var(--bs-pet-gree);
@@ -10947,8 +10948,11 @@ html {
   font-family: "Poppins";
 }
 
+.text-gradient::after{
+  text-shadow: 1px 1px 5px #000;
+}
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: #a8bc28;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
