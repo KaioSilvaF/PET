@@ -41,7 +41,7 @@ inspiration
 https://dribbble.com/shots/4684682-Aquatic-Animals
 */
 
-var swiper = new Swiper(".swiper", {
+var swiper = new Swiper(".SwiperPlanos", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -86,7 +86,7 @@ var swiper = new Swiper(".swiper", {
       rotate: 0,
       stretch: 0,
       depth: 100,
-      modifier: 3,
+      modifier:3,
       slideShadows: true
     },
     keyboard: {
@@ -95,7 +95,6 @@ var swiper = new Swiper(".swiper", {
     // mousewheel: {
     //   thresholdDelta: 70
     // },
-    loop: true,
     pagination: {
       el: ".swiperlojas-pagination",
       clickable: true

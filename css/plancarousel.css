@@ -107,7 +107,7 @@ main > div > a:hover {
   width: 100%;
   padding-top: 3.125rem;  
   padding-bottom: 3em !important;
-  padding-left: 3em;
+  padding-left: 5em;
   padding-right: 3em;
 }
 .swiperlojas .swiper-slide {
@@ -117,7 +117,6 @@ main > div > a:hover {
   border-radius: 25px;
   flex-direction: column;
   background-color: white;
-  box-shadow: 1px 1px 10px #000000 ;
 }
 .swiperlojas .swiper-slide h2 {
   margin: 0.1em 0.5em;
@@ -145,7 +144,6 @@ main > div > a:hover {
   border-radius: 25px;
   flex-direction: column;
   background-color: white;
-  box-shadow: 1px 1px 10px #000000 ;
 }
 .swiper-slide h2 {
   background-color: var(--pet-green);
@@ -200,13 +198,23 @@ main > div > a:hover {
 .swiper-slide div {
   opacity: 60%;
   padding-bottom: 0.625rem;
+  transition: 0.3s ease-in;
 }
 
 .swiper-slide-active div {
   display: block;
-  opacity: 1;
+  opacity: 100%;
+  transition: 0.3s ease-in;
 }
-
+.swiper-slide-visible{
+  box-shadow: 1px 1px 10px #000000 ;
+}
+.swiper-slide-next{
+  box-shadow: none;
+}
+.swiper-slide-prev{
+  box-shadow: none;
+}
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
   background-image: none;
@@ -232,11 +240,11 @@ main > div > a:hover {
 }
 @media screen and (min-width: 93.75rem) {
   .swiper {
-    width: 60%;
+    width: 100%;
     padding: 3.4em;
   }
   .swiperlojas {
-    width: 60%;
+    width: 100%;
     padding: 3.4em;
   }
   .swiperlojas img {
