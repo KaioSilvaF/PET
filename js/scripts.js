@@ -8,7 +8,6 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
-
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
@@ -79,7 +78,7 @@ var swiper = new Swiper(".swiper", {
       }
     }
   });
-  var swiper = new Swiper(".swiperlojas", {
+  var swiperlojas = new Swiper(".swiperlojas", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -98,7 +97,7 @@ var swiper = new Swiper(".swiper", {
     // },
     loop: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiperlojas-pagination",
       clickable: true
     },
     breakpoints: {
