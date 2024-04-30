@@ -118,8 +118,8 @@ body {
   background-position: center;
   background-size: contain;
 }
-.masthead h1{
-  text-shadow: 0px01px 5px rgb(255, 255, 255) ;
+.masthead h1 span{
+  text-shadow: 0px 0px 5px white;
 }
 .spacer{
   margin-top: calc(-12em - 7vw);
