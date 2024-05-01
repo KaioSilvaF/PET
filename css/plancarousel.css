@@ -111,6 +111,7 @@ main > div > a:hover {
   padding-left: 5em;
   padding-right: 5em;
 }
+
 .swiperlojas .swiper-slide {
   width: 12rem;
   height: 100%;
@@ -191,7 +192,10 @@ main > div > a:hover {
   border-radius: 1em;
   font-family: "Poppins", sans-serif;  
 }
-
+.swiperlojas .swiper-slide a{
+  width: 80%;
+  margin: auto;
+}
 .swiper-slide a:hover {
   color: #005baa;
 }
@@ -234,6 +238,10 @@ main > div > a:hover {
     max-width: 45%;
     
   }
+  .swiperlojas a{
+      margin: auto;
+      width: 2em;
+  }
   .bg,
 .bg2 {
     opacity: 0.1;
@@ -251,5 +259,9 @@ main > div > a:hover {
   .swiperlojas img {
     max-width: 50%;
     
+  }
+  .swiperlojas a{
+      margin: auto;
+      width: 2em;
   }
 }
