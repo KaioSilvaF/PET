@@ -125,7 +125,7 @@ body {
   margin-top: calc(-12em - 7vw);
   aspect-ratio: 200/37;
   width: 100%;
-  background-image: url("/assets/separador.svg");
+  background-image: url("/assets/svg/separador.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
