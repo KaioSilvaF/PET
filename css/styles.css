@@ -113,7 +113,7 @@ body {
 .masthead{
   aspect-ratio: 200/76;
   width: 100%;
-  background-image: url("/assets/paws.svg") ;
+  background-image: url("/assets/svg/paws.svg") ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
