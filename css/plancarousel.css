@@ -183,6 +183,7 @@ main > div > a:hover {
 
 .swiper-slide a {
   display: block;
+  text-decoration:none !important;
   width: 15em;
   text-align: center;
   background-color: var(--pet-green);
@@ -191,6 +192,10 @@ main > div > a:hover {
   font-size: 0.9rem;
   border-radius: 1em;
   font-family: "Poppins", sans-serif;  
+  font-weight: 600;
+  font-size: 1em;
+  
+  color: white;
 }
 .swiperlojas .swiper-slide a{
   width: 80%;

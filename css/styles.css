@@ -134,6 +134,11 @@ body {
 #carouselplans{
   margin-top: 2px;
 }
+bold{
+  font-family: "Poppins" !important;
+  font-size: 1em;
+  font-weight: 900;
+}
 .card{
   margin: 0 20px;
   width: 80%;
