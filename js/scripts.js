@@ -36,11 +36,6 @@ $(window).scroll(function(){
     $('#logo').toggleClass('scrolled', $(this).scrollTop() > 500);
 });
 
-/*
-inspiration
-https://dribbble.com/shots/4684682-Aquatic-Animals
-*/
-
 var swiper = new Swiper(".SwiperPlanos", {
     effect: "coverflow",
     grabCursor: true,
@@ -49,15 +44,12 @@ var swiper = new Swiper(".SwiperPlanos", {
       rotate: 0,
       stretch: 0,
       depth: 100,
-      modifier: 3,
+      modifier: 2,
       slideShadows: true
     },
     keyboard: {
       enabled: false
     },
-    // mousewheel: {
-    //   thresholdDelta: 70
-    // },
     loop: true,
     pagination: {
       el: ".swiper-pagination",
@@ -92,9 +84,6 @@ var swiper = new Swiper(".SwiperPlanos", {
     keyboard: {
       enabled: false
     },
-    // mousewheel: {
-    //   thresholdDelta: 70
-    // },
     pagination: {
       el: ".swiperlojas-pagination",
       clickable: true
