@@ -109,8 +109,9 @@ main > div > a:hover {
   padding-top: 3.125rem;  
   padding-bottom: 3em !important;
   padding-left: 5em;
-  padding-right: 3em;
+  padding-right: 5em;
 }
+
 .swiperlojas .swiper-slide {
   width: 12rem;
   height: 100%;
@@ -166,9 +167,14 @@ main > div > a:hover {
 .swiper-slide h3{
   font-family: "poppins";
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 900;
 }
-
+.footer{
+  margin:auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+}
 .swiper-slide p {
   color: var(--pet-black);
   font-family: "Poppins", sans-serif;
@@ -179,9 +185,9 @@ main > div > a:hover {
   display: block;
   overflow: hidden; 
 }
-
 .swiper-slide a {
   display: block;
+  text-decoration:none !important;
   width: 15em;
   text-align: center;
   background-color: var(--pet-green);
@@ -190,8 +196,15 @@ main > div > a:hover {
   font-size: 0.9rem;
   border-radius: 1em;
   font-family: "Poppins", sans-serif;  
+  font-weight: 600;
+  font-size: 1em;
+  
+  color: white;
 }
-
+.swiperlojas .swiper-slide a{
+  width: 80%;
+  margin: auto;
+}
 .swiper-slide a:hover {
   color: #005baa;
 }
@@ -234,6 +247,10 @@ main > div > a:hover {
     max-width: 45%;
     
   }
+  .swiperlojas a{
+      margin: auto;
+      width: 2em;
+  }
   .bg,
 .bg2 {
     opacity: 0.1;
@@ -251,5 +268,9 @@ main > div > a:hover {
   .swiperlojas img {
     max-width: 50%;
     
+  }
+  .swiperlojas a{
+      margin: auto;
+      width: 2em;
   }
 }

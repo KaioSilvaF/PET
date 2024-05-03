@@ -113,7 +113,7 @@ body {
 .masthead{
   aspect-ratio: 200/76;
   width: 100%;
-  background-image: url("/assets/paws.svg") ;
+  background-image: url("/assets/svg/paws.svg") ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -125,7 +125,7 @@ body {
   margin-top: calc(-12em - 7vw);
   aspect-ratio: 200/37;
   width: 100%;
-  background-image: url("/assets/separador.svg");
+  background-image: url("/assets/svg/separador.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,6 +133,11 @@ body {
 
 #carouselplans{
   margin-top: 2px;
+}
+bold{
+  font-family: "Poppins" !important;
+  font-size: 1em;
+  font-weight: 900;
 }
 .card{
   margin: 0 20px;
@@ -142,6 +147,9 @@ body {
   margin-bottom: 4em;
   box-shadow: 5px 8px 10px -7px;
   border-radius: 23px !important;
+}
+.row{
+  margin: auto !important;
 }
 .card-group .card{
   margin: 10px 20px;
@@ -8198,7 +8206,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #212529 !important;
 }
 
 .text-black-50 {
