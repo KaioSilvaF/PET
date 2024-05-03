@@ -148,6 +148,9 @@ bold{
   box-shadow: 5px 8px 10px -7px;
   border-radius: 23px !important;
 }
+.row{
+  margin: auto !important;
+}
 .card-group .card{
   margin: 10px 20px;
   border-radius: 23px !important;

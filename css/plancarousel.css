@@ -167,9 +167,14 @@ main > div > a:hover {
 .swiper-slide h3{
   font-family: "poppins";
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 900;
 }
-
+.footer{
+  margin:auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+}
 .swiper-slide p {
   color: var(--pet-black);
   font-family: "Poppins", sans-serif;
@@ -180,7 +185,6 @@ main > div > a:hover {
   display: block;
   overflow: hidden; 
 }
-
 .swiper-slide a {
   display: block;
   text-decoration:none !important;
