@@ -130,7 +130,14 @@ body {
   background-position: center;
   background-size: cover;
 }
-
+.btn-primary{
+  background-color: var(--bs-pet-gree) !important;
+  border-color: var(--bs-pet-gree) !important;
+}
+.btn-primary:hover{
+  background-color: #6e7e0a !important;
+  border-color: #6e7e0a !important;
+}
 #carouselplans{
   margin-top: 2px;
 }
@@ -2961,7 +2968,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #2937f0;
+  --bs-btn-bg: #0d0f25;
   --bs-btn-border-color: #2937f0;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #232fcc;
